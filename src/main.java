@@ -1,20 +1,10 @@
+import lombok.NoArgsConstructor;
+
+import java.util.Scanner;
+
+@NoArgsConstructor
 public class main {
-    private int Num1;
-    private String Nome;
+        Retangulo ret = new Retangulo();
+        Scanner sc = new Scanner(System.in);
 
-    public int getNum1() {
-        return Num1;
-    }
-
-    public void setNum1(int num1) {
-        Num1 = num1;
-    }
-
-    public String getNome() {
-        return Nome;
-    }
-
-    public void setNome(String nome) {
-        Nome = nome;
-    }
 }
