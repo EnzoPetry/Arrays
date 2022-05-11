@@ -1,11 +1,22 @@
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class Retangulo {
     private double Altura;
     private double Largura;
+
+    public double getAltura() {
+        return Altura;
+    }
+
+    public void setAltura(double altura) {
+        Altura = altura;
+    }
+
+    public double getLargura() {
+        return Largura;
+    }
+
+    public void setLargura(double largura) {
+        Largura = largura;
+    }
 
     public double Area() {
         return Altura*Largura;
